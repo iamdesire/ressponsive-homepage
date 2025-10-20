@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+}
+body{
+    width: 100%;
+}
+.div-work{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 40vh;
+    border: 1px solid black;
+}
+
+.div-work .div-img{
+    height: 20vh;
+    background-color: rgb(77, 178, 178);
+}
+.div-work .desc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+}
+
+.desc svg{
+    margin-left: 20px;
+}
